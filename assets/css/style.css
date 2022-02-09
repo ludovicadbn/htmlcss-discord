@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 .clearfix::after{
@@ -11,15 +12,74 @@
     clear: both;
 }
 
-/* UTILITY */
+.button{
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px 15px;
+}
 
+/* UTILITY */
+.f-white{
+    color: white;
+}
+
+.f-black{
+    color: black;
+}
+
+.bg-blue{
+    background-color: #3161e0;
+}
 /* FINE UTILITY */
 
+/* HEADER */
 header{
-    background-color: red;
-    width: 100%;
-    height: 100px;
+    position: relative;
 }
+
+nav img{
+    float: left;
+    vertical-align: middle;
+    padding: 20px;
+    margin-left: 10%;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    float: left;
+}
+
+nav ul li a{
+    display: inline-block;
+    padding: 15px;
+    font-size: 0.9em;
+    text-decoration: none;
+    float: left;
+}
+
+nav div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.sign-in{
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translate(-10%, -50%);
+    font-size: 0.9em;
+}
+
+/* MAIN */
 
 .s-1{
     background-color: orange;
