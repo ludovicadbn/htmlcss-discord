@@ -53,6 +53,7 @@ nav img{
     vertical-align: middle;
     padding: 20px;
     margin-left: 13%;
+    width: 10%;
 }
 
 nav ul li{
@@ -85,10 +86,16 @@ nav ul li a:hover{
     top: 50%;
     right: 13%;
     transform: translate(-10%, -50%);
-    font-size: 0.9em;
+    font-size: 0.8em;
+}
+
+.sign-in:hover{
+    color: #3161e0;
 }
 
 /* MAIN */
+
+/* BANNER SECTION */
 .banner-section{
     position: relative;
 }
@@ -98,7 +105,7 @@ nav ul li a:hover{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 450px;
+    height: 350px;
 }
 
 .banner-content{
@@ -117,6 +124,9 @@ nav ul li a:hover{
 .banner-subtext{
     margin-top: 40px;
     text-align: center;
+}
+
+.banner-subtext span{
     display: block;
 }
 
@@ -127,13 +137,43 @@ nav ul li a:hover{
 
 .banner-buttons a{
     margin: 0 10px;
+    padding: 10px 30px;
+    font-size: 0.9em;
 }
 
-.s-2{
-    background-color: yellow;
-    width: 80%;
-    height: 500px;
-    margin: 0 auto;
+.banner-buttons a span{
+    margin: 5px;
+}
+
+.banner-buttons a:hover{
+    color: #3161e0;
+}
+
+/* FIRST SECTION */
+.channels{
+    width: 70%;
+    margin: 5% auto;
+}
+
+.channels img{
+    width: 57%;
+    float: left;
+}
+
+.channels div{
+    width: calc(43% - 20%);
+    float: left;
+    margin: 3% 10%;
+}
+
+.channels div h2{
+    margin-bottom: 10px;
+    font-size: 1.8em;
+}
+
+.channels div span{
+    font-weight: bold;
+    font-size: 0.7em;
 }
 
 .s-3{
