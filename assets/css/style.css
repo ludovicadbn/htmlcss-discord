@@ -5,6 +5,90 @@
     box-sizing: border-box;
 }
 
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* UTILITY */
 
 /* FINE UTILITY */
+
+header{
+    background-color: red;
+    width: 100%;
+    height: 100px;
+}
+
+.s-1{
+    background-color: orange;
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.s-2{
+    background-color: yellow;
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.s-3{
+    background-color: green;
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.s-4{
+    background-color: blue;
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.s-5{
+    background-color: blueviolet;
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.s-6{
+    background-color: red;
+    width: 80%;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.f-1{
+    background-color: orange;
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.c-30{
+    margin: 5px 5px 5px 5px;
+    background-color: yellow;
+    width: calc(30% - 10px);
+    height: calc(100% - 10px);
+    float: left;
+}
+
+.c-17{
+    margin: 5px;
+    background-color: yellow;
+    width: calc((100% - 30%)/4 - 10px);
+    height: calc(100% - 10px);
+    float: left;
+}
+
+.f-2{
+    background-color: green;
+    width: 80%;
+    height: 150px;
+    margin: 0 auto;
+}
