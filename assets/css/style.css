@@ -86,14 +86,12 @@ nav img{
 
 nav ul li{
     display: inline-block;
-    float: left;
 }
 
 nav ul li a{
     display: inline-block;
     padding: 15px;
     font-size: 0.8em;
-    float: left;
 }
 
 nav div{
@@ -348,4 +346,33 @@ footer h4{
     width: calc(80%/4 - 60px);
     height: calc(100% - 10px);
     float: left;
+}
+
+hr{
+    width: 70%;
+    margin: 0 auto;
+    border-color: #7188d7;
+}
+
+.register{
+    width: 70%;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding: 20px 0 5%;
+    position: relative;
+}
+
+.register img{
+    width: 10%;
+}
+
+.register a{
+    font-size: 0.7em;
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+.register a:hover{
+    color: #3161e0;
 }
