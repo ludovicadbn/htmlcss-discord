@@ -21,6 +21,10 @@ a{
     text-decoration: none;
 }
 
+.bottom-wave{
+    transform: rotate(180deg);
+}
+
 /* UTILITY */
 .f-white{
     color: white;
@@ -186,12 +190,12 @@ nav ul li a:hover{
 
 /* VOICE CHANNELS SECTION */
 .voice-channels{
-    padding: 1px 0 80px;
+    padding: 5% 0;
 }
 
 .voice-channels-content{
     width: 70%;
-    margin: 5% auto;
+    margin: 0% auto;
 }
 
 .voice-channels img{
@@ -215,15 +219,29 @@ nav ul li a:hover{
     font-size: 0.7em;
 }
 
-.bottom-wave{
-    transform: rotate(180deg);
+/* TECHNOLOGY */
+.technology{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 5%;
 }
 
-.s-5{
-    background-color: blueviolet;
-    width: 80%;
-    height: 500px;
-    margin: 0 auto;
+.technology-text{
+    text-align: center;
+}
+
+.technology-text h2{
+    margin-bottom: 10px;
+    font-size: 1.8em;
+}
+
+.technology-text span{
+    font-weight: bold;
+    font-size: 0.7em;
+}
+
+.technology-content img{
+    width: 100%;
 }
 
 .s-6{
