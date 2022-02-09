@@ -21,12 +21,6 @@ a{
     text-decoration: none;
 }
 
-.wave{
-    width: 100%;
-    height: 100px;
-    fill: #f6f6f6;
-}
-
 /* UTILITY */
 .f-white{
     color: white;
@@ -163,45 +157,66 @@ nav ul li a:hover{
     color: #3161e0;
 }
 
-/* FIRST SECTION */
-.channels{
+/* CHANNELS/COMMUNITY SECTION */
+.channels, .community{
     width: 70%;
     margin: 5% auto;
 }
 
-.channels img{
+.channels img, .community img{
     width: 57%;
     float: left;
 }
 
-.channels div{
+.channels div, .community div{
     width: calc(43% - 20%);
     float: left;
     margin: 3% 10%;
 }
 
-.channels div h2{
+.channels div h2, .community div h2{
     margin-bottom: 10px;
     font-size: 1.8em;
 }
 
-.channels div span{
+.channels div span, .community div span{
     font-weight: bold;
     font-size: 0.7em;
 }
 
-.s-3{
-    background-color: green;
-    width: 80%;
-    height: 500px;
-    margin: 0 auto;
+/* VOICE CHANNELS SECTION */
+.voice-channels{
+    padding: 1px 0 80px;
 }
 
-.s-4{
-    background-color: blue;
-    width: 80%;
-    height: 500px;
-    margin: 0 auto;
+.voice-channels-content{
+    width: 70%;
+    margin: 5% auto;
+}
+
+.voice-channels img{
+    width: 57%;
+    float: right;
+}
+
+.voice-channels-text{
+    width: calc(43% - 20%);
+    float: right;
+    margin: 3% 10%;
+}
+
+.voice-channels-text h2{
+    margin-bottom: 10px;
+    font-size: 1.8em;
+}
+
+.voice-channels-text span{
+    font-weight: bold;
+    font-size: 0.7em;
+}
+
+.bottom-wave{
+    transform: rotate(180deg);
 }
 
 .s-5{
