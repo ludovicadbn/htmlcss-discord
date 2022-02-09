@@ -21,6 +21,12 @@ a{
     text-decoration: none;
 }
 
+.wave{
+    width: 100%;
+    height: 100px;
+    fill: #f6f6f6;
+}
+
 /* UTILITY */
 .f-white{
     color: white;
@@ -40,6 +46,14 @@ a{
 
 .bg-blue{
     background-color: #3161e0;
+}
+
+.filter-lightgray{
+    filter: invert(99%) sepia(7%) saturate(480%) hue-rotate(233deg) brightness(116%) contrast(93%);
+}
+
+.bg-lightgray{
+    background-color: #f6f6f6;
 }
 /* FINE UTILITY */
 
