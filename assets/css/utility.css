@@ -1,0 +1,55 @@
+.m-5{
+    margin: 5px;
+}
+
+.p-tb-5-percent{
+    padding: 5% 0;
+}
+
+.t-center{
+    text-align: center;
+}
+
+.f-small{
+    font-size: 0.8em;
+}
+
+.f-white{
+    color: white;
+}
+
+.f-black{
+    color: black;
+}
+
+.f-blue{
+    color: #7188d7;
+}
+
+.bg-darkgray{
+    background-color: #23272a;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-blue{
+    background-color: #3161e0;
+}
+
+.bg-lightblue{
+    background-color: #8ea1e1;
+}
+
+.bg-lightgray{
+    background-color: #f6f6f6;
+}
+
+.filter-lightgray{
+    filter: invert(99%) sepia(7%) saturate(480%) hue-rotate(233deg) brightness(116%) contrast(93%);
+}
+
+.f-blue-hover:hover{
+    color: #3161e0;
+}
