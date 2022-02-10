@@ -127,10 +127,6 @@ nav ul li a{
     font-size: 0.9em;
 }
 
-.banner-buttons a:hover{
-    color: #3161e0;
-}
-
 /* SECTION */
 .container{
     width: 70%;
