@@ -175,28 +175,28 @@ nav ul li a:hover{
 }
 
 /* CHANNELS/COMMUNITY SECTION */
-.channels, .community{
+.container{
     width: 70%;
     margin: 5% auto;
 }
 
-.channels img, .community img{
+.container img{
     width: 57%;
     float: left;
 }
 
-.channels div, .community div{
+.container div{
     width: calc(43% - 20%);
     float: left;
     margin: 3% 10%;
 }
 
-.channels div h2, .community div h2{
+.container div h2{
     margin-bottom: 10px;
     font-size: 1.8em;
 }
 
-.channels div span, .community div span{
+.container div span{
     font-weight: bold;
     font-size: 0.7em;
 }
