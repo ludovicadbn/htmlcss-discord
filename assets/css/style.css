@@ -61,6 +61,7 @@ header nav{
     float: left;
     width: 50%;
     text-align: center;
+    padding: 8px 0;
 }
 
 nav ul li, nav ul li a{
@@ -73,10 +74,10 @@ nav ul li a{
 }
 
 .sign-in{
-    margin-top: 5px;
     width: 25%;
     float: left;
     font-size: 0.8em;
+    padding: 8px 0;
 }
 
 /* MAIN */
