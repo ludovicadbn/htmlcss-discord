@@ -38,7 +38,11 @@ a, li{
     list-style: none;
 }
 
-.container-text span, .stars a, .banner-subtext{
+.stars h3, .container-text h2{
+    font-size: 1.8em;
+}
+
+.banner-subtext, .sub-container .container-text span{
     font-size: 1.2em;
 }
 
@@ -52,6 +56,10 @@ nav ul li a, .sign-in{
 
 nav ul li, nav ul li a{
     display: inline-block;
+}
+
+.column div ul li, footer h4{
+    margin-bottom: 10px;
 }
 
 /* HEADER */
@@ -148,7 +156,10 @@ nav ul li a{
 
 .container-text h2{
     margin-bottom: 20px;
-    font-size: 2.2em;
+}
+
+.stars h3{
+    margin-bottom: 10%;
 }
 
 .stars{
@@ -157,16 +168,10 @@ nav ul li a{
     background-repeat: no-repeat;
     display: inline-block;
     padding: 20px;
-    margin-bottom: 30px;
 }
 
 .stars a{
-    padding: 15px 20px;
-}
-
-.stars h3{
-    margin-bottom: 10%;
-    font-size: 1.8em;
+    padding: 10px 20px;
 }
 
 /* FOOTER */
@@ -196,10 +201,6 @@ nav ul li a{
     width: calc(80%/4 - 60px);
     height: calc(100% - 10px);
     float: left;
-}
-
-.column div ul li, footer h4{
-    margin-bottom: 10px;
 }
 
 hr{
