@@ -17,16 +17,8 @@
     padding: 10px 15px;
 }
 
-a{
-    text-decoration: none;
-}
-
 .bottom-wave{
     transform: rotate(180deg);
-}
-
-li{
-    list-style: none;
 }
 
 hr{
@@ -41,6 +33,27 @@ hr{
     width: 10%;
 }
 
+a, li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.container-text span, .stars a, .banner-subtext{
+    font-size: 1.2em;
+}
+
+nav ul li a, .sign-in, footer h4{
+    font-size: 0.9em;
+}
+
+nav ul li a, .sign-in{
+    font-weight: bold;
+}
+
+nav ul li, nav ul li a{
+    display: inline-block;
+}
+
 /* HEADER */
 header nav{
     padding: 15px 0;
@@ -53,7 +66,7 @@ header nav{
 
 .logo-top img{
     float: left;
-    margin-left: 75%;
+    margin: 2% 0 0 70%;
     width: 30%;
 }
 
@@ -64,26 +77,17 @@ header nav{
     padding: 8px 0;
 }
 
-nav ul li, nav ul li a{
-    display: inline-block;
-}
-
 nav ul li a{
     margin: 0 25px;
-    font-size: 0.9em;
-    font-weight: bold;
 }
 
 .sign-in{
     width: 25%;
     float: left;
-    font-size: 0.9em;
     padding: 8px 0;
-    font-weight: bold;
 }
 
 /* MAIN */
-
 /* BANNER */
 .hero{
     background-image: url(../img/jumbo.png);
@@ -101,7 +105,6 @@ nav ul li a{
 .banner-subtext{
     margin-top: 2%;
     text-align: center;
-    font-size: 1.2em;
 }
 
 .banner-subtext span{
@@ -115,8 +118,6 @@ nav ul li a{
 
 .banner-buttons a{
     margin: 0 10px;
-    padding: 15px 20px;
-    font-size: 1.2em;
 }
 
 /* SECTION */
@@ -147,11 +148,7 @@ nav ul li a{
 
 .container-text h2{
     margin-bottom: 20px;
-    font-size: 3.3em;
-}
-
-.container-text span{
-    font-size: 1.2em;
+    font-size: 2.2em;
 }
 
 .stars{
@@ -163,14 +160,13 @@ nav ul li a{
     margin-bottom: 30px;
 }
 
+.stars a{
+    padding: 15px 20px;
+}
+
 .stars h3{
     margin-bottom: 10%;
     font-size: 1.8em;
-}
-
-.stars a{
-    font-size: 1.2em;
-    padding: 15px 20px;
 }
 
 /* FOOTER */
@@ -182,7 +178,6 @@ nav ul li a{
 
 .c-20 h3{
     margin-bottom: 15px;
-
 }
 
 .social-buttons{
@@ -196,11 +191,6 @@ nav ul li a{
     filter: invert(93%) sepia(0%) saturate(7500%) hue-rotate(139deg) brightness(108%) contrast(102%);
 }
 
-footer h4{
-    margin-bottom: 10px;
-    font-size: 0.9em;
-}
-
 .column{
     margin: 5px;
     width: calc(80%/4 - 60px);
@@ -208,7 +198,7 @@ footer h4{
     float: left;
 }
 
-.column div ul li{
+.column div ul li, footer h4{
     margin-bottom: 10px;
 }
 
