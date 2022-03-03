@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/minified.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Discord</title>
@@ -11,18 +13,18 @@
 <body>
     
     <header>
-        <nav class="bg-blue py-2">
+        <nav class="bg-blue-nav py-2">
             <div class="container d-flex ai-center jc-between px-9">
                 <div>
-                    <img class="img-respo vertical-align" src="./assets/img/logo.svg" alt="logo discord">
+                    <img class="img-respo va-middle" src="./assets/img/logo.svg" alt="logo discord">
                 </div>
-                <div>
+                <div class="d-flex ai-center">
                     <ul class="d-flex">
-                        <li class="px-6"><a class="text-white fw-bold" href="#">Scarica</a></li>
-                        <li class="px-6"><a class="text-white fw-bold" href="#">Perché Discord</a></li>
-                        <li class="px-6"><a class="text-white fw-bold" href="#">Nitro</a></li>
-                        <li class="px-6"><a class="text-white fw-bold" href="#">Sicurezza</a></li>
-                        <li class="px-6"><a class="text-white fw-bold" href="#">Assistenza</a></li>
+                        <li class="px-3"><a class="text-white fw-bold" href="#">Scarica</a></li>
+                        <li class="px-3"><a class="text-white fw-bold" href="#">Perché Discord</a></li>
+                        <li class="px-3"><a class="text-white fw-bold" href="#">Nitro</a></li>
+                        <li class="px-3"><a class="text-white fw-bold" href="#">Sicurezza</a></li>
+                        <li class="px-3"><a class="text-white fw-bold" href="#">Assistenza</a></li>
                     </ul>
                 </div>
                 <div class="sign-in">
@@ -44,7 +46,7 @@
                             <span>Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale, o semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme, Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso.</span>
                         </div>
                         <div>
-                            <a class="btn radio-pill bg-white text-black" href="#"><span>&#11123;</span>  Scarica per Mac</a>
+                            <a class="btn radio-pill bg-white text-black" href="#"><span class="mr-1">&#11123;</span>  Scarica per Mac</a>
                             <a class="ml-1 btn radio-pill bg-darkgray text-white" href="#">Apri Discord nel tuo browser</a>
                         </div>
                     </div>
@@ -55,16 +57,162 @@
         <!-- channels -->
         <section class="container p-9">
             <div class="row">
-                <div class="col-7">
-                    <img class="img-respo va-middle" src="./assets/img/item1.svg" alt="screenshot of how channels are divided in discord">
+                <div class="col-6 offleft-1">
+                    <img class="img-respo" src="./assets/img/item1.svg" alt="screenshot of how channels are divided in discord">
                 </div>
-                <div class="col-4 offright-1">
-                    <h2>Un luogo a invito con tutto lo spazio necessario per parlare</h2>    
+                <div class="col-3 offright-2 d-flex flex-column jc-center">
+                    <h2 class="mb-3 fs-7">Un luogo a invito con tutto lo spazio necessario per parlare</h2>    
                     <span>I server Discord sono organizzati in canali tematici in cui puoi collaborare, condividere o semplicemente parlare della tua giornata senza intasare una chat di gruppo.</span>
                 </div>
             </div>
         </section>
+
+        <!-- wave -->
+        <div>
+            <img src="./assets/img/wave.svg" alt="" class="filter-lightgray">
+        </div>
+
+        <!-- voice channels -->
+        <section class="bg-lightgray p-6 v-channels">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3 offleft-2 d-flex flex-column jc-center">
+                        <h2 class="mb-3 fs-7">Dove trovarsi è facile</h2>    
+                        <span>Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel tuo server possono vedere che sei lì e unirsi istantaneamente senza dover chiamare,</span>
+                    </div>    
+                    <div class="col-6 offright-1">
+                        <img class="img-respo" src="./assets/img/item2.svg" alt="screenshot of how channels are divided in discord">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="bottom-wave">
+            <img src="./assets/img/wave.svg" alt="" class="filter-lightgray">
+        </div>
+
+        <!-- community -->
+        <section class="container p-9">
+            <div class="row">
+                <div class="col-6 offleft-1">
+                    <img class="img-respo" src="./assets/img/item3.svg" alt="screenshot of how communities are divided in discord">
+                </div>
+                <div class="col-3 offright-2 d-flex flex-column jc-center">
+                    <h2 class="mb-3 fs-7">Da pochi a un fandom</h2>    
+                    <span>Dai inizio a una community di qualsiasi dimensione con strumenti di moderazione e accesso ai membri personalizzabile. Concedi ai membri poteri speciali, crea canali privati, e molto altro.</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- wave -->
+        <div>
+            <img src="./assets/img/wave.svg" alt="" class="filter-lightgray">
+        </div>
+
+        <!-- technology and download button-->
+        <section class="bg-lightgray pt-6 pb-9 tech">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2 class="fs-7 mb-3">Tecnologia affidabile per tenersi in contatto</h2>
+                        <span>Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegno con la condivisione schermo.</span>
+                    </div>
+                    <div class="col-12 text-center">
+                        <img class="img-respo" src="./assets/img/item4-big.svg" alt="screenshot showing videocalls">
+                    </div>
+                </div>
+                <div class="stars offleft-3 col-6 text-center">
+                    <h3 class="fs-6 mb-3">Pronto a iniziare la tua avventura?</h3>
+                    <a class="btn radio-pill bg-blue text-white" href=""><span class="mr-1">&#11123;</span> Scarica per Mac</a>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <footer class="bg-darkgray">
+        <div class="container p-8">
+            <div class="row">
+                <div class="col-4">
+                    <h3 class="text-blue mb-2">Il tuo posto per parlare</h3>
+                    <div class="language mb-2">
+                        <img class="img-respo" src="./assets/img/ita.png" alt="italian flag">
+                        <a href="#" class="text-white">Italiano &#709;</a>
+                    </div>
+                    <div>
+                        <a href="#"><i class="fa-brands fa-twitter text-white mr-2"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram text-white mr-2"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-square text-white mr-2"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube text-white mr-2"></i></a>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <h4 class="text-blue mb-2">Prodotto</h4>
+                    <div class="fs-4">
+                        <ul>
+                            <li class="mb-1"><a class="text-white" href="#">Scarica</a></li>
+                            <li class="mb-1"><a class="text-white" href="#">Perché Discord</a></li>
+                            <li class="mb-1"><a class="text-white" href="#">Nitro</a></li>
+                            <li class="mb-1"><a class="text-white" href="#">Sicurezza</a></li>
+                            <li class="mb-1"><a class="text-white" href="#">Assistenza</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <h4 class="text-blue mb-2">Compagnia</h4>
+                    <div class="fs-4">
+                        <ul>
+                            <li class="mb-1"><a class="text-white" href="#">Chi siamo</a></li>
+                            <li class="mb-1"><a class="text-white" href="#">Lavora con noi</a></li>
+                            <li class="mb-1"><a class="text-white" href="#">Marchio</a></li>
+                            <li class="mb-1"><a class="text-white" href="#">Redazione</a></li>
+                            <li class="mb-1"><a class="text-white" href="#">Negozio</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <h4 class="text-blue mb-2">Risorse</h4>
+                    <div class="fs-4">
+                        <ul>
+                            <li class="mb-1"><a class="text-white" href="#">Scarica</a></li>
+                            <li class="mb-1"><a class="text-white" href="#">Perché Discord</a></li>
+                            <li class="mb-1"><a class="text-white" href="#">Nitro</a></li>
+                            <li class="mb-1"><a class="text-white" href="#">Sicurezza</a></li>
+                            <li class="mb-1"><a class="text-white" href="#">Assistenza</a></li>
+                            <li class="mb-1"><a class="text-white" href="#">Scarica</a></li>
+                            <li class="mb-1"><a class="text-white" href="#">Perché Discord</a></li>
+                            <li class="mb-1"><a class="text-white" href="#">Nitro</a></li>
+                            <li class="mb-1"><a class="text-white" href="#">Sicurezza</a></li>
+                            <li class="mb-1"><a class="text-white" href="#">Assistenza</a></li>
+                            <li class="mb-1"><a class="text-white" href="#">Assistenza</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <h4 class="text-blue mb-2">Norme</h4>
+                    <div class="fs-4">
+                        <ul>
+                            <li class="mb-1"><a class="text-white" href="#">Scarica</a></li>
+                            <li class="mb-1"><a class="text-white" href="#">Perché Discord</a></li>
+                            <li class="mb-1"><a class="text-white" href="#">Nitro</a></li>
+                            <li class="mb-1"><a class="text-white" href="#">Sicurezza</a></li>
+                            <li class="mb-1"><a class="text-white" href="#">Assistenza</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <hr>
+        </div>
+
+        <div class="container px-8 py-4">
+            <div class="row jc-between">
+                <img class="img-respo va-middle" src="./assets/img/logo.svg" alt="discord logo">
+                <a class="btn text-white bg-blue radio-pill" href="">Registrati</a>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>

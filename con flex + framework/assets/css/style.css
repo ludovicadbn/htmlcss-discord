@@ -1,16 +1,44 @@
-body{
-    font-family: sans-serif;
-}
+body{font-family: sans-serif;}
 
-.bg-blue{background-color: #255ee9;}
+.bg-blue-nav{background-color: #255ee9;}
+.bg-blue{background-color: #8ea1e1;}
 .bg-white{background-color: #fff;}
 .bg-darkgray{background-color: #23272a;}
+.bg-lightgray{background-color: #f6f6f6;}
 
-.img-respo{max-width: 100%; height: auto;}
+.filter-lightgray{filter: invert(100%) sepia(0%) saturate(7376%) hue-rotate(280deg) brightness(116%) contrast(93%);}
+
+.text-blue{
+    color: #8ea1e1;
+}
 
 .hero{
     background-image: url(../img/jumbo.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.v-channels{
+    margin-top: -0.3rem;
+    margin-bottom: -0.3rem;
+}
+
+.tech{
+    margin-top: -0.3rem;
+}
+
+.bottom-wave{
+    transform: rotate(180deg);
+}
+
+.stars{
+    background-image: url(../img/stars.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.language img{
+    width: 5%
 }
