@@ -1,0 +1,16 @@
+body{
+    font-family: sans-serif;
+}
+
+.bg-blue{background-color: #255ee9;}
+.bg-white{background-color: #fff;}
+.bg-darkgray{background-color: #23272a;}
+
+.img-respo{max-width: 100%; height: auto;}
+
+.hero{
+    background-image: url(../img/jumbo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
