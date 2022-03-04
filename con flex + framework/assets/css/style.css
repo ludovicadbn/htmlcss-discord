@@ -43,7 +43,7 @@ body{font-family: sans-serif;}
 
 .language img{width: 5%}
 
-@media screen (min-width: 62em) {
+@media screen and (min-width: 62em) {
     .topnav a.icon{right: 15%;}
 }
 
