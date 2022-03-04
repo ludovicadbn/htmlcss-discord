@@ -1,5 +1,18 @@
 body{font-family: sans-serif;}
 
+.topnav {overflow: hidden; background-color: #255ee9; position: relative;}
+.topnav #myLinks {display: none;}
+.topnav a {color: white; font-weight: bold; margin: 0.8em; display: block;}
+.topnav .sign-in a{color: #000; padding: .35rem .7rem;}
+
+.topnav a.icon {
+    background: #255ee9;
+    display: block;
+    position: absolute;
+    right: 10%;
+    top: 0;
+}
+
 .bg-blue-nav{background-color: #255ee9;}
 .bg-blue{background-color: #8ea1e1;}
 .bg-white{background-color: #fff;}
@@ -7,10 +20,7 @@ body{font-family: sans-serif;}
 .bg-lightgray{background-color: #f6f6f6;}
 
 .filter-lightgray{filter: invert(100%) sepia(0%) saturate(7376%) hue-rotate(280deg) brightness(116%) contrast(93%);}
-
-.text-blue{
-    color: #8ea1e1;
-}
+.text-blue{color: #8ea1e1;}
 
 .hero{
     background-image: url(../img/jumbo.png);
@@ -19,18 +29,10 @@ body{font-family: sans-serif;}
     background-repeat: no-repeat;
 }
 
-.v-channels{
-    margin-top: -0.3rem;
-    margin-bottom: -0.3rem;
-}
+.v-channels{margin-top: -0.3rem; margin-bottom: -0.3rem;}
+.tech{margin-top: -0.3rem;}
 
-.tech{
-    margin-top: -0.3rem;
-}
-
-.bottom-wave{
-    transform: rotate(180deg);
-}
+.bottom-wave{transform: rotate(180deg);}
 
 .stars{
     background-image: url(../img/stars.svg);
@@ -39,6 +41,12 @@ body{font-family: sans-serif;}
     background-repeat: no-repeat;
 }
 
-.language img{
-    width: 5%
+.language img{width: 5%}
+
+@media screen (min-width: 62em) {
+    .topnav a.icon{right: 15%;}
+}
+
+@media screen and (min-width: 90em) {
+    .topnav a.icon{right: 20%;}
 }
